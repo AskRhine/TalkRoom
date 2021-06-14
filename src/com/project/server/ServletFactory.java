@@ -17,9 +17,42 @@ import java.util.List;
  * Description: 通过注解方式产生servlet实现
  */
 public class ServletFactory {
+    //    private static Properties pro = new Properties();
+//    static {
+//        try {
+//            pro.load(new FileReader("web.txt"));
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//    }
+//
+
+//    /**
+//     * 根据URL，得到处理该请求的业务组件对象
+//     *
+//     * @param url URL
+//     * @return 业务组件对象
+//     */
+//    public static Object getServlet(String url) {
+//        String classPath = pro.getProperty(url);
+//        //请求的是文件
+//        if (classPath == null) {
+//            return null;
+//        }
+//
+//        try {
+//            //加载类，得到类模版
+//            Class c = Class.forName(classPath);
+//            return c.getDeclaredConstructor().newInstance();
+//        } catch (Exception e) {
+//            e.printStackTrace();
+//        }
+//        return null;
+//    }
+
 
     /**
-     * 获取servlet实现
+     * 注解方式获取servlet实现
      *
      * @param c
      * @param url
@@ -88,7 +121,7 @@ public class ServletFactory {
         }
         return null;
     }
-    
+
     public void init() {
 
     }
