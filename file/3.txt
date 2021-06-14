@@ -1,0 +1,20 @@
+Invalid procedure call or argument 
+  Time='05.28.21 20:18:10' App='WordToRQM:16.5.3982' ADO-version='10.0' Computer='LAPTOP-BAAQ3UTV' 
+  Method: Connect.UpdateCustomTools 
+  Number: 5 = &H5 = vbObjectError + 2147221509 = ERRMAP_APP_FIRST + 2147216311 
+  Source: WordToRqm16 
+  Description: Invalid procedure call or argument
+  Call Stack: Connect.UpdateCustomTools(bNew={Nothing}) --------------------------------------------
+
+
+
+Invalid procedure call or argument 
+  Time='05.28.21 20:18:10' App='WordToRQM:16.5.3982' ADO-version='10.0' Computer='LAPTOP-BAAQ3UTV' 
+  Method: Connect.AddReqButtons 
+  Number: 5 = &H5 = vbObjectError + 2147221509 = ERRMAP_APP_FIRST + 2147216311 
+  Source: WordToRqm16 
+  Description: Invalid procedure call or argument
+  Call Stack: Connect.AddReqButtons() --------------------------------------------------------------
+
+
+

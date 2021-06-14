@@ -1,0 +1,6 @@
+land=com.project.service.LoginService
+findAll=com.project.service.FindAllService
+del=com.project.service.DelService
+add=com.project.service.AddService
+update=com.project.service.UpdateService
+findById=com.project.service.FindByIdService
